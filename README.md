@@ -19,15 +19,13 @@ El proyecto se encuentra organizado rigurosamente bajo la arquitectura modular e
 
 ```text
 restaurante_app/
-│
-├── modelos/
-│   ├── __init__.py
-│   ├── producto.py     # Clase Padre que define las propiedades generales del menú.
-│   ├── platillo.py     # Clase Hija especializada en comidas y tiempos de preparación.
-│   └── bebida.py       # Clase Hija especializada en líquidos y volumen en mililitros.
-│
-├── servicios/
-│   ├── __init__.py
-│   └── restaurante.py  # Clase de servicio que administra la colección de productos.
-│
-└── main.py             # Punto de arranque, pruebas de control e instanciación de objetos.
+ ├── modelos/
+ │   ├── __init__.py
+ │   ├── producto.py      # Clase Padre que define las propiedades generales del menú.
+ │   ├── platillo.py      # Clase Hija especializada en comidas y tiempos de preparación.
+ │   └── bebida.py        # Clase Hija especializada en líquidos y volumen en mililitros.
+ ├── servicios/
+ │   ├── __init__.py
+ │   └── restaurante.py   # Clase de servicio que administra la colección de productos.
+ ├── main.py              # Punto de arranque, pruebas de control e instanciación de objetos.
+ └── README.md            # Documentación del proyecto y estructura del sistema.
