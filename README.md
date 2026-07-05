@@ -28,4 +28,4 @@ restaurante_app/
  │   ├── __init__.py
  │   └── restaurante.py   # Clase de servicio que administra la colección de productos.
  ├── main.py              # Punto de arranque, pruebas de control e instanciación de objetos.
- └── README.md            # Documentación del proyecto y estructura del sistema.
+ └── README.md            # Documentación oficial del proyecto y detalles del sistema.
